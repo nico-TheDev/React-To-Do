@@ -1,38 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300&display=swap');
+
+
 *,
 *::before,
-*::after {
-  box-sizing: inherit;
-  margin: 0;
-  padding: 0;
+*::after{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
 }
 
-html {
-  box-sizing: border-box;
+html{
+    box-sizing: border-box;
 }
 
-body {
-  line-height: 1.5;
-  font-family: 'Lato',sans-serif;
-  min-height: 100vh;
-  display: grid;
-  place-items: center;
+body{
+    font-family: 'Lato',sans-serif;
+    line-height: 1.5;
+ background: #000428;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color: white;
+
 }
 
-.card {
-  width: 20rem;
-  padding: 2rem;
-  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
-  text-align: center;
+a{
+    text-decoration: none;
+    color: inherit;
 }
 
-.card__img {
-  width: 10rem;
-  height: 10rem;
-  border-radius: 50%;
-  object-fit: cover;
-  object-position: center;
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom: 1rem;
+li{
+    list-style: none;
+}
+
+button{
+    cursor: pointer;
+    border: none;
+    background: transparent;
+    font-family: inherit;
+    font-size: inherit;
 }
